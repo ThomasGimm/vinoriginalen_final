@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/fne4ear.css">
+    <link href="style/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>VinOriginalen - Book</title>
+    <meta name="keywords" content=" vinoriginalen, vin, hvidvin, rødvin, naturvin, orangevin, bobler, kvalitet, eksklusivt, vinsmagning, unikt, book, book os, oplev." >
+    <meta name="description" content=" Vinoriginalen tilbyder vinsmagninger til private eller erhverv, hvor i kan opleve smagen af Italien.">
+    <link rel="shortcut icon" href="img/favicon.png" />
+</head>
+
+<body>
+        <div id="body_wrapper">
+    <header>
+    
+            <!--Burgermenu-->
+                    <div id="flexcontainer1">
+                        <div id="burgerdropdown">
+                            <div id="burgerbutton">
+                                <div class="burger"></div>
+                                <div class="burger"></div>
+                                <div class="burger"></div>
+                            </div>
+                            <div id="burgercontent">
+                                <a href="index.html">Hjem</a>
+                                <a href="voresvine.html">Vores vine</a>
+                                <a href="vingaarden.html">Vingården</a>
+                                <a href="book.html">Book vinsmagning</a>
+                                <a href="kontakt.html">Kontakt</a>
+                            </div>
+                        </div>
+                    </div>
+             <!--Burgermenu slutter-->
+
+
+            <!--Almindelig menu-->     
+            <section>
+            <ul id="almindeligmenu">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="voresvine.html">Vores vine</a></li>
+                <li><a href="vingaarden.html">Vingården</a></li>
+                <li><a href="book.html">Book vinsmagning</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                 </ul>
+                </section>
+            <!--Almindelig menu slutter-->
+
+
+            <article id="menu">
+                    
+                    <section id="menu_del1">
+                        <div class="menustreg"></div> 
+                    </section>
+
+                    <section id="titel"> 
+                    <h1>VinOriginalen</h1>
+                    </section>
+                    
+                    <section id="menu_del2">    
+                    <img id="indkøbskurv" src="img/indkøbskurv.png" alt="Indkøbskurv"> 
+                    <div class="menustreg"></div>
+                    <p>Gratis fragt ved køb over 1000kr.</p>
+                    <p>Levering 2-3 hverdage</p>
+                    </section>
+                    
+                    <img id="vinsmagning_1" src="img/vinsmagning_1.jpg" alt="Vinsmagning">
+                
+                </article>
+
+    </header>
+
+    <main> 
+
+        <!-- indhold af første del -->
+
+        <article id="book_første_del">
+            <img class="overgang_grøn" src="img/overgang_grøn.png" alt="overgang"> 
+
+            <!-- overskriften, specifikt for "book vinsmagning" undersiden-->
+
+            <section>
+                <h2 class="h2_book">Book vinsmagning</h2>
+            </section>
+
+           <!-- Knap til pop-up hvor man kan booke vinsmagning-->
+           <section id="h3_book">
+            <button class="open-button" onclick="openForm()">Book nu</button>
+
+            <div class="form-popup" id="myForm">
+                <form class="form-container">
+                    <h2>Skriv og book tid</h2>
+
+                    <label><b>Email</b></label>
+                    <input type="text" placeholder="Din email" name="email" required>
+
+                    <label><b>Besked</b></label>
+                    <input type="text" placeholder="Din besked" name="besked" required>
+
+                    <button type="submit" class="btn" id="btnknap2" onclick="mysend2()">Send</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+                </form>
+            </div>
+        </section>
+
+
+            <img class="overgang_grøn" src="img/overgang_grøn.png" alt="overgang"> 
+            <!-- indhold af første del slut -->
+
+            <!-- Hvad tilbyder vi delen-->
+   
+        <section id="p_book">
+           <h2 class="h2_book">Hvad tilbyder vi?</h2> 
+           <p>Hos VinOriginalen tilbyder vi vinsmagninger af høj kvalitet. Book vinsmagningen til personalefester, privatarrangementer, i forbindelse med bryllup eller andre festligheder. På denne måde får du introduceret vinen på bedste vis. 
+            Karina vil præsentere smagssammensætninger, komme med beskrivelser og fortællinger om vinene. <br> <br> Med en vinsmagning fra VinOriginalen får du en oplevelse, du sjældent glemmer!
+            
+           </p>
+        </section>
+
+    </article>
+
+             <!-- Hvad tilbyder vi delen SLUT-->
+
+
+              <!-- De tre billeder -->
+
+            <section id="billeder_book">
+              <img id="vinsmagning_2" src="img/vinsmagning_2.png" alt="vinsmagning_2">
+              <img id="vinsmagning_3" src="img/vinsmagning_3.png" alt="vinsmagning_3">
+              <img id="vinsmagning_4" src="img/vinsmagning_4.png" alt="vinsmagning_4">
+            </section>
+    </main>
+
+    <footer> 
+
+        <article id="footer">
+
+            <div id="footer_wrap">
+            <section id="footer_foerst">
+                    <h4>Om VinOriginalen</h4>
+                    <p>Holdet bag Vinoriginalen er vinentusiasterne Karina Anée Købke og Peer Withagen Købke. 
+                        Karina importerer unikke og smagsfyldte vine fra Italien. Vinoriginalen bestræber sig på at glæde andre med disse unikke og fantastiske vinene. 
+                        Vi tilbyder vinsmagninger til både erhvervs- og private arrangementer, hvor vi vil lære jer omkring vinene. Hvis dette har interesse er I velkomne til at kontakte os på mail eller telefon.</p>
+                        <br>
+            </section>
+            
+            <section id="footer_midt">
+                <section id="adresse">
+                    <img class="img_footer" src="img/adresse.png" alt="adresse">
+                    <p>Vejnavn 0, 0000 Bynavn</p>
+                </section>
+
+                <section id="telefon">
+                    <img class="img_footer" src="img/telefon.png" alt="telefon">
+                    <p>+45 00000000</p>
+                </section>
+
+                <section id="mail">
+                    <img class="img_footer" src="img/mail.png" alt="mail">
+                    <p>write.us@vinoriginalen.dk</p>
+                </section>
+            </section>  
+            
+            <section id="footer_slut">
+
+                <section id="punkt_1">
+                    <a href="index.html"> > Startside</a></section>
+
+                <section id="punkt_2">
+                    <a href="voresvine.html"> > Vores vine</a> </section>
+
+                <section id="punkt_3">
+                    <a href="vingaarden.html"> > Vingården</a></section>
+
+                <section id="punkt_4">
+                    <a href="book.html"> > Book vinsmagning</a></section>
+
+                <section id="punkt_5">
+                        <a href="kontakt.html"> > Kontakt</a></section>
+        
+
+
+            </section>
+
+            <a href="index.html">Hjem</a>
+            <a href="voresvine.html">Vores vine</a>
+            <a href="vingaarden.html">Vingården</a>
+            <a href="book.html">Book vinsmagning</a>
+            <a href="kontakt.html">Kontakt</a>
+
+        </div>
+                
+            <section id="footer_sociale_medier">
+                    <img src="img/facebook.png" alt="facebook">
+                    <img src="img/instagram.png" alt="instagram">
+            </section>
+            
+              
+        </article>
+
+    </footer>
+        </div>
+        <script src="js/script.js"></script>
+</body>
+</html>
